@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width:100%;
+    height: 120px;
+    background-color: blue;
+    border-bottom: 2px solid darkgrey;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 5;
+}
+
+header .top-left{
+    width:100%;
+    height: calc(100%/2);
+    display:flex;
+    align-items: center;
+}
+
+.top-left img{
+    padding: 0 20px;
+}
+
+header .btn {
+    margin-top: 10px;
+}
+
+.btn ul {
+    display: flex;
+}
+
+.btn ul li{
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.btn ul li:hover {
+    cursor: pointer;
+    color: rgb(48, 48, 179);
+}
+
+main {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#faq .container {
+    padding-top: 100px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.container h2{
+    margin-top : 20px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+
+.container p{
+    line-height: 4px;
+}
